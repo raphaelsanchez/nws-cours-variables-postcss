@@ -1,0 +1,17 @@
+/** COMPENENTS */
+
+/* Button */
+.button {
+  display: inline-block;
+  padding: calc(var(--spacing) / 2) var(--spacing);
+  background-color: var(--theme-color, #000);
+  color: white;
+  text-decoration: none;
+}
+
+/* Card */
+.card {
+  border: 1px solid;
+  margin-bottom: var(--spacing);
+  padding: var(--spacing);
+}

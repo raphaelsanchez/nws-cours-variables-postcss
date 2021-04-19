@@ -1,0 +1,17 @@
+/** LAYOUTS */
+header {
+  padding: var(--spacing) 5vw;
+}
+main,
+footer {
+  width: 90vw;
+  max-width: 980px;
+  margin: auto;
+}
+header {
+  background: var(--theme-color, #000);
+  color: white;
+}
+footer {
+  text-align: center;
+}

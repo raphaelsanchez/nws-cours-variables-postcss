@@ -1,0 +1,44 @@
+/** 
+ * VARIABLES 
+ * Définition des variables du site
+ * -------------------------------------------- */
+@import "css/variables.css";
+
+/** 
+ * BASE
+ * Définition des éléments de base 
+ * (ex. body, hN, links, media, etc...)
+ * --------------------------------------------- */
+@import "css/base.css";
+
+/** 
+ * LAYOUT
+ * Définition des éléments structurant 
+ * de la page.
+ * --------------------------------------------- */
+@import "css/layout.css";
+
+/** 
+ * COMPONENTS
+ * Définition des différents composants
+ * (ex. block, card, buttons, etc...)
+ * --------------------------------------------- */
+@import "css/components.css";
+
+/** 
+ * THEMES
+ * Définition des variations en fonction
+ * d'un theme graphique
+ * (ex. light-mode, dark-mode, with-sidebar ...)
+ * --------------------------------------------- */
+@import "css/themes.css";
+
+/** 
+ * Utils
+ * classes utilitaires
+ * --------------------------------------------- */
+/* Accessibilité */
+/* @import "css/a11y.css"; */
+
+/* Color palette */
+/* @import "css/color-palette.css"; */

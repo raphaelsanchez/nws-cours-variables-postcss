@@ -1,0 +1,8 @@
+/** THEMES */
+.theme-dark {
+  --background-color: #111;
+  --text-color: #fff;
+}
+.theme-green {
+  --theme-color: green;
+}

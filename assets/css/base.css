@@ -1,0 +1,42 @@
+/** BASES */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+/* Links */
+a {
+  color: var(--theme-color);
+  text-underline-offset: 3px;
+}
+a:hover {
+  text-decoration-style: dotted;
+}
+
+/* Lists */
+ul,
+ol {
+  padding-left: var(--spacing);
+}
+
+/* Media */
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}

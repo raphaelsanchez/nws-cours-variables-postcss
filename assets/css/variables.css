@@ -1,0 +1,9 @@
+:root {
+  /* Colors*/
+  --background-color: white;
+  --text-color: black;
+  --theme-color: tomato;
+  
+  /* Units*/
+  --spacing: 1rem;
+}
