@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "watch": "postcss ./assets/app.css --output ./build/app.min.css --watch --verbose",
-    "build": "NODE_ENV=production postcss ./assets/app.css --output ./build/app.min.css --verbose"
+    "build": "cross-env NODE_ENV=production postcss ./assets/app.css --output ./build/app.min.css --verbose"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
+    "cross-env": "^7.0.3",
     "cssnano": "^5.0.1",
     "postcss": "^8.2.10",
     "postcss-cli": "^8.3.1",
